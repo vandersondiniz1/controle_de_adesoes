@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\RedirectResponse;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,13 @@ Route::get('/home', 'HomeController@index')->middleware('auth');;
 
 Auth::routes();
 
+Route::get('logout', function ()
+{
+    Session()->flush();
+    return redirect('/home');
+})->name('logout');
+
+#O MIDDLEWARE(AUTH)VERIFICA SE O USUARIO ESTA LOGADO ANTES DE ACESSAR ALGUMA PAGINA
 Route::get('/adesoes', 'AdesaoController@lista')->middleware('auth');;
 
 Route::get('/adesoes/mostra/{adesao}', 'AdesaoController@mostra')->where('adesao', '[0-9]+')->middleware('auth');;
@@ -28,5 +36,5 @@ Route::get('/adesoes/remove/{id}', 'AdesaoController@remove')->where('id', '[0-9
 
 #EXIBE UMA OPÇÃO DE VOLTAR CASO A PAGINA NAO EXISTA
 Route::fallback(function (){
-    echo 'A página que você tentou acessar não existe. Clique <a href="/adesoes">aqui</a> acessar a página inicial.';
+    echo 'A página que você tentou acessar não existe. Clique <a href="/home">aqui</a> acessar a página inicial.';
 });

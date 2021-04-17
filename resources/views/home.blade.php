@@ -71,7 +71,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="{{ route('logout') }}">
                             <span class="icon">
                             <i aria-hidden="true" class="glyphicon glyphicon-log-out"></i>
                             </span>
