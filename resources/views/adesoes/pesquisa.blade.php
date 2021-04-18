@@ -11,7 +11,7 @@
         </div>
     </div>
 </form>
-<div >class="icon-home"
+<div class="icon-home">
     <h3>Resultado da Pesquisa</h3>
     <table class="table table-striped">
         <tr>

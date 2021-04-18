@@ -39,7 +39,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/adesoes/pesquisa">
                             <span class="icon">
                             <i aria-hidden="true" class="glyphicon glyphicon-font"></i>
                             </span>
@@ -47,7 +47,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/clientes/pesquisa">
                             <span class="icon">
                             <i aria-hidden="true" class="glyphicon glyphicon-user"></i>
                             </span>
