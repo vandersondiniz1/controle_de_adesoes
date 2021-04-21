@@ -55,7 +55,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/usuarios/pesquisa">
                             <span class="icon">
                             <i aria-hidden="true" class="glyphicon glyphicon-user"></i>
                             </span>

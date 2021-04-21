@@ -38,6 +38,12 @@ Route::get('/clientes/pesquisa', 'ClienteController@pesquisa')->name('search')->
 
 Route::get('/clientes/remove/{id}', 'ClienteController@remove')->where('id', '[0-9]+')->middleware('auth');;
 
+Route::get('/usuarios/pesquisa', 'UsuarioController@pesquisa')->name('search')->middleware('auth');;
+
+Route::get('/usuarios/edita/{id}', 'UsuarioController@edit')->where('id', '[0-9]+')->middleware('auth');;
+
+Route::post('/usuarios/edita/{id}', 'UsuarioController@update')->where('id', '[0-9]+')->name('editar_usuario')->middleware('auth');;
+
 #EXIBE UMA OPÇÃO DE VOLTAR CASO A PAGINA NAO EXISTA
 Route::fallback(function (){
     echo 'A página que você tentou acessar não existe. Clique <a href="/home">aqui</a> acessar a página inicial.';
