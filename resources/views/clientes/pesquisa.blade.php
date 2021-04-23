@@ -2,10 +2,10 @@
 @section('conteudo')
 <h3>Pesquisar Clientes pelo Nome</h3>
 
-<form action="{{ route('search') }}" method="GET">
+<form action="{{ route('clientes_search') }}" method="GET">
     <div class="input-group mb-3">
         <input type="text" class="form-control" placeholder="Digite o nome de um cliente" aria-describedby="basic-addon2"
-            name="search">
+            name="clientes_search">
         <div class="input-group-append">
             <button class="btn btn-secondary" type="submit">Buscar</button>
         </div>

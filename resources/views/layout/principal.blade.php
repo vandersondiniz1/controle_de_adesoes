@@ -13,19 +13,26 @@
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="/adesoes">
+                    <a class="navbar-brand" href="/home">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </a>
+                </div>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/home">
                         Grupo Vicoa Brasil
                     </a>
                 </div>
+                <!--
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/adesoes">Listagem</a></li>
+                    <li><a href="/home">Listagem</a></li>
                     <!-- <li><a href="#">Novo</a></li> -->
                 </ul>
+                -->
             </div>
         </nav>
         @yield('conteudo')
         <footer class="footer">
-            <p>©Grupo Vicoa Brasil - Desenvolvido por [...] - 2021</p>
+            <p>©Grupo Vicoa Brasil - Desenvolvido por @vandersondiniz - 2021</p>
         </footer>
     </div>
 </body>

@@ -14,14 +14,31 @@ class UsuarioController extends Controller
     {
         $usuario = DB::table('cadastro_usuario');
       
-        if( $request->input('search'))
+        if( $request->input('usuarios_search'))
         {
-            $usuario = $usuario->where('nome', 'LIKE', "%" . $request->search . "%")
-                                ->orWhere('cpf', 'LIKE', "%" . $request->search . "%");
+            $usuario = $usuario->where('nome', 'LIKE', "%" . $request->usuarios_search . "%")
+                                ->orWhere('cpf', 'LIKE', "%" . $request->usuarios_search . "%");
         }
         
         $usuario = $usuario->paginate(5);
         return view('usuarios.pesquisa', compact('usuario'));
+    } 
+
+    public function pesquisa_varios(Request $request)
+    {
+        $usuario = DB::table('cadastro_usuario');
+
+        #$input = $request->all();
+      
+        if( $request->input('usuarios_search_varios'))
+        {
+            $usuario = $usuario->where('nome', 'LIKE', "%" . $request->usuarios_search_varios . "%")
+                               #->whereIn('nome', $request->search . "%");
+                               ->orWhere('cpf', 'LIKE', "%" . $request->usuarios_search_varios . "%");
+        }
+        
+        $usuario = $usuario->paginate(20);
+        return view('usuarios.pesquisa_varios', compact('usuario'));
     } 
       
     public function edit($id){

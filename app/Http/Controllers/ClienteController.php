@@ -15,10 +15,10 @@ class ClienteController extends Controller
     {
         $cliente = DB::table('cadastro_cliente');
       
-        if( $request->input('search'))
+        if( $request->input('clientes_search'))
         {
-            $cliente = $cliente->where('nome', 'LIKE', "%" . $request->search . "%")
-                                ->orWhere('cpf', 'LIKE', "%" . $request->search . "%");
+            $cliente = $cliente->where('nome', 'LIKE', "%" . $request->clientes_search . "%")
+                                ->orWhere('cpf', 'LIKE', "%" . $request->clientes_search . "%");
         }
         
         $cliente = $cliente->paginate(20);

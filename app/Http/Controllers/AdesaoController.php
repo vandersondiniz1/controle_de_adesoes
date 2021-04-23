@@ -51,9 +51,9 @@ class AdesaoController extends Controller
     {
         $adesao = DB::table('registro_crm');
       
-        if( $request->input('search'))
+        if( $request->input('adesoes_search'))
         {
-            $adesao = $adesao->where('adesao', 'LIKE', "%" . $request->search . "%");
+            $adesao = $adesao->where('adesao', 'LIKE', "%" . $request->adesoes_search . "%");
         }
         
         $adesao = $adesao->paginate(10);

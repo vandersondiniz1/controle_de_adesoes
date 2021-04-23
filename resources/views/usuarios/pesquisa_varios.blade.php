@@ -1,11 +1,18 @@
 @extends('layout.principal')
 @section('conteudo')
-<h3>Pesquisar Usuário</h3>
+<nav aria-label="Navegação de página exemplo">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="/usuarios/pesquisa" tabindex="-1">Página Anterior</a>
+    </li>
+  </ul>
+</nav>
+<h3>Pesquisar Vários Usuários</h3>
 
-<form action="{{ route('usuarios_search') }}" method="GET">
+<form action="{{ route('usuarios_search_varios') }}" method="GET">
     <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Digite um cpf ou nome" aria-describedby="basic-addon2"
-            name="usuarios_search">
+        <input type="text" class="form-control" placeholder="Digite nomes, separados por vírgulas" aria-describedby="basic-addon2"
+            name="usuarios_search_varios">
         <div class="input-group-append">
             <button class="btn btn-secondary" type="submit">Buscar</button>
         </div>
@@ -40,10 +47,4 @@
         </tr>
         @endforeach
     </table>
-    <div class="icon-home">
-        <a href="/usuarios/pesquisa_varios"
-            onclick="return confirm('Você fará alterações em vários usuários de uma só vez. Tenha cuidado!');">
-            <h3>Editar Vários Usuários</h3>
-        </a>
-    </div>
     @stop
