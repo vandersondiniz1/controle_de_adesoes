@@ -187,18 +187,11 @@ Project Link: [https://github.com/vandersondiniz1/controle_de_adesoes](https://g
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [Antonio Bernardino](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
+## Agradecimentos
+* [Antonio Bernardino](https://github.com/Tonybsilva-dev)
+* [Ednilton Junior](https://github.com/edniltonjr)
+* [Laerson Castro](https://github.com/laersonjr)
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
