@@ -7,7 +7,7 @@
     <label for="">Id</label> <br />
     <input type="text" name="id" value="{{ $usuario->id}}" readonly=“true”> <br />
     <label for="">Nome</label> <br />
-    <input type="text" name="nome" size=30 value="{{ $usuario->nome}}"> <br />
+    <input type="text" name="nome" size=30 value="{{ $usuario->nome}}" readonly=“true”> <br />
 
     <label for="">Supervisor</label> <br />
     <!-- <input type="text" name="supervisor" size=30 value="{{ $usuario->supervisor}}"> <br /> -->

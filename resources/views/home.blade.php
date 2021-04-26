@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GVB - Home</title>
+    <title>GVB - Início</title>
     <meta name="description" content="Responsive Retina-Friendly Menu with different, size-dependent layouts" />
     <meta name="keywords" content="responsive menu, retina-ready, icon font, media queries, css3, transition, mobile" />
     <meta name="author" content="Codrops" />
@@ -21,8 +21,7 @@
         <!-- Codrops top bar -->
         <div class="codrops-top clearfix">
             <a class="codrops-icon codrops-icon-prev" href="#"><span>Grupo Vicoa Brasil</span></a>
-            <span class="right"><a class="codrops-icon codrops-icon-drop" href="#"><span>Colocar algum link
-                        aqui</span></a></span>
+            <span class="right"><a class="codrops-icon codrops-icon-drop" href="#"><span>Início</span></a></span>
         </div>
         <header>
             <h1>Página Inicial <span>Manusear Adesões, Clientes e Usuários</span></h1>
@@ -35,7 +34,7 @@
                             <span class="icon">
                                 <i aria-hidden="true" class="glyphicon glyphicon-home"></i>
                             </span>
-                            <span>Home</span>
+                            <span>Página Inicial</span>
                         </a>
                     </li>
                     <li>
@@ -75,7 +74,7 @@
                             <span class="icon">
                             <i aria-hidden="true" class="glyphicon glyphicon-log-out"></i>
                             </span>
-                            <span>Logout</span>
+                            <span>Sair</span>
                         </a>
                     </li>
                 </ul>

@@ -27,23 +27,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="#">
-    <img src="readme/images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Grupo Vicoa Brasil</h3>
+  <h3 align="center">Best-README-Template</h3>
 
   <p align="center">
-    Sistema para Manusear Adesões, Clientes e Usuários
+    An awesome README template to jumpstart your projects!
     <br />
-    <a href="#"><strong>Documentação»</strong></a>
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="#">Link 1</a>
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
-    <a href="#">Link 2</a>
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
-    <a href="#">Link 3</a>
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </p>
 
@@ -51,10 +51,10 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>Sumário</summary>
+  <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Sobre o Projeto</a>
+      <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>

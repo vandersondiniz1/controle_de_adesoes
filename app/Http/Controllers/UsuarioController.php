@@ -32,12 +32,13 @@ class UsuarioController extends Controller
       
         if( $request->input('usuarios_search_varios'))
         {
-            $usuario = $usuario->where('nome', 'LIKE', "%" . $request->usuarios_search_varios . "%")
+            $usuario = $usuario->where('supervisor', 'LIKE', "%" . $request->usuarios_search_varios . "%");
+                               #->where('status', '=', 'ATIVO');
                                #->whereIn('nome', $request->search . "%");
-                               ->orWhere('cpf', 'LIKE', "%" . $request->usuarios_search_varios . "%");
+                               #->orWhere('cpf', 'LIKE', "%" . $request->usuarios_search_varios . "%");
         }
         
-        $usuario = $usuario->paginate(20);
+        $usuario = $usuario->paginate(100);
         return view('usuarios.pesquisa_varios', compact('usuario'));
     } 
       
