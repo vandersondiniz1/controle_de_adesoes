@@ -76,7 +76,7 @@
    <!-- <li><a href="#roadmap">Roadmap</a></li> -->
    <!-- <li><a href="#contributing">Contributing</a></li> -->
    <!-- <li><a href="#license">License</a></li> -->
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact">Contato</a></li>
    <!-- <li><a href="#acknowledgements">Acknowledgements</a></li> -->
   </ol>
 </details>
@@ -88,27 +88,29 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Rotineiramente os supervisores e outros setores da empresa solicitavam diversas alterações no banco de dados que abrigava dados de vendas, clientes e usuários. 
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+* Excluir registros duplicados;
+* Excluir registros em branco ou com campos importantes vazios;
+* Modificar permissões de um determinado usuário, atribuindo um novo supervisor, etc.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+Estava ficando inviável parar tudo o que se estivesse fazendo, para realizar essas alterações. Logo, foi idealizada uma maneira de atribuir 
+esta tarefa aos principais envolvidos, claro que de maneira segura e sendo possível identificar quem realizou determinada alteração. 
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Hoje, não é mais necessário à equipe de TI se preocupar com essa tarefa. O sistema foi desenvolvido e está pronto para entrar em funcionamento. 
 
-### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+### Tecnologias Utilizadas
+
+O sistema foi desenvolvido principalmente com as tecnologias abaixo:
+
 * [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
 * [Laravel](https://laravel.com)
 
 
 
-<!-- GETTING STARTED -->
+
+<!-- GETTING STARTED 
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -137,26 +139,26 @@ This is an example of how to list things you need to use the software and how to
    ```JS
    const API_KEY = 'ENTER YOUR API';
    ```
+-->
 
 
-
-<!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES 
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
+-->
 
 
-
-<!-- ROADMAP -->
+<!-- ROADMAP 
 ## Roadmap
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+-->
 
 
-
-<!-- CONTRIBUTING -->
+<!-- CONTRIBUTING 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -166,28 +168,27 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+-->
 
 
-
-<!-- LICENSE -->
+<!-- LICENSE 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
+-->
 
 
 <!-- CONTACT -->
-## Contact
+## Contato
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Vanderson Diniz - [https://www.linkedin.com/in/vandersondiniz](https://www.linkedin.com/in/vandersondiniz)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
+Project Link: [https://github.com/vandersondiniz1/controle_de_adesoes](https://github.com/vandersondiniz1/controle_de_adesoes)
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Antonio Bernardino](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Img Shields](https://shields.io)
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Pages](https://pages.github.com)
@@ -198,9 +199,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 * [Sticky Kit](http://leafo.net/sticky-kit)
 * [JVectorMap](http://jvectormap.com)
 * [Font Awesome](https://fontawesome.com)
-
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
