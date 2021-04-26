@@ -21,6 +21,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 -->
+
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -29,7 +30,7 @@
 <br />
 <p align="center">
   <a href="#">
-    <img src="readme/images/logo.png" alt="Logo" width="80" height="80">
+    <img src="readme/images/logo.png" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">Grupo Vicoa Brasil</h3>
@@ -40,11 +41,12 @@
     <a href="#"><strong>Documentação»</strong></a>
     <br />
     <br />
-    <a href="#">Link 1</a>
+  <!--  <a href="#">Link 1</a>
     ·
     <a href="#">Link 2</a>
     ·
     <a href="#">Link 3</a>
+   -->	
   </p>
 </p>
 
@@ -67,12 +69,12 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+   <!-- <li><a href="#usage">Usage</a></li> -->
+   <!-- <li><a href="#roadmap">Roadmap</a></li> -->
+   <!-- <li><a href="#contributing">Contributing</a></li> -->
+   <!-- <li><a href="#license">License</a></li> -->
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+   <!-- <li><a href="#acknowledgements">Acknowledgements</a></li> -->
   </ol>
 </details>
 
@@ -212,4 +214,4 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/vandersondiniz
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: readme/images/screenshot.png
